@@ -1,5 +1,4 @@
 import java.util.concurrent.Callable;
-import java.util.concurrent.locks.Lock;
 
 public class Adder implements Callable<Void> {
     private Value value;
