@@ -44,6 +44,11 @@ public class Item implements Comparable<Item>{
     }
 
     @Override
+    public String toString() {
+        return this.getName();
+    }
+
+    @Override
     public int compareTo(Item compared) {
         return this.getName().compareTo(compared.getName());
     }
