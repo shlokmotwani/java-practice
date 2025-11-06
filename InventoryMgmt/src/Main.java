@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -22,8 +22,7 @@ public class Main {
         Item delisogaGlass = new Item(1, "Delisoga Glass", 250, 1);
         Clothing bluorangeTee = new Clothing(4, "Orange Tee", 3000, 10, "XL");
 
-
-
+        // inventory implementation
         Inventory<Item> inventory = new Inventory<>();
         inventory.addItem(delisogaGlass);
         inventory.addItem(iphone14);
@@ -54,6 +53,7 @@ public class Main {
         System.out.println("**************** Electronics Inventory ******************");
         electronicsInventory.printAllItems();
 
+        // history implementation
         RecentlyViewedItems history = new RecentlyViewedItems();
         history.addRecentlyViewedItem(iphone14);
         history.addRecentlyViewedItem(zeroToOne);
@@ -77,6 +77,7 @@ public class Main {
         history.printRecentlyViewedItems();
 
 
+        // order processor implementation using PriorityQueue
         Order order1 = new Order(1, true);
         Order order2 = new Order(2, false);
         Order order3 = new Order(3, false);
@@ -93,6 +94,19 @@ public class Main {
         System.out.println("**************** Order Processing *******************");
         while(op.getSize() > 0){
             op.processOrder();
+        }
+
+        // wishlist implementation
+        WishList wishList = new WishList();
+        wishList.addToWishList(iphone14);
+        wishList.addToWishList(eatThatFrog);
+        wishList.addToWishList(charger);
+        wishList.addToWishList(zeroToOne);
+
+        System.out.println("**************** Items from wishlist *******************");
+        Set<Item> items = wishList.getItemsFromWishList();
+        for(Item item: items){
+            System.out.println(item);
         }
     }
 }
