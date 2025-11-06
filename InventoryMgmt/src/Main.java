@@ -75,5 +75,24 @@ public class Main {
 
         System.out.println("**************** Top 10 Recently Viewed Items ******************");
         history.printRecentlyViewedItems();
+
+
+        Order order1 = new Order(1, true);
+        Order order2 = new Order(2, false);
+        Order order3 = new Order(3, false);
+        Order order4 = new Order(4, true);
+        Order order5 = new Order(5, true);
+
+        OrderProcessor op = new OrderProcessor();
+        op.addOrder(order1);
+        op.addOrder(order2);
+        op.addOrder(order3);
+        op.addOrder(order4);
+        op.addOrder(order5);
+
+        System.out.println("**************** Order Processing *******************");
+        while(op.getSize() > 0){
+            op.processOrder();
+        }
     }
 }
