@@ -13,5 +13,10 @@ public class Main {
         ll.insert(100, 9);
 
         ll.printLL();
+        System.out.println(ll.retrieve(0));
+        System.out.println(ll.retrieve(3));
+        System.out.println(ll.retrieve(6));
+        System.out.println(ll.retrieve(9));
+        System.out.println(ll.retrieve(10));
     }
 }

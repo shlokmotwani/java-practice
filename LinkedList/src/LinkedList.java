@@ -32,6 +32,28 @@ public class LinkedList {
         }
     }
 
+    public int retrieve(int position){
+        if(position < 0){
+            return -1;
+        }
+
+        if(position == 0){
+            return this.head.data;
+        }
+
+        int count = 0;
+        Node temp = this.head;
+        while(temp!=null && count<position){
+            temp = temp.next;
+            count++;
+        }
+
+        if(temp!= null){
+            return temp.data;
+        }
+        return -1;
+    }
+
     public void printLL(){
         Node temp = this.head;
         StringBuilder sb = new StringBuilder();
