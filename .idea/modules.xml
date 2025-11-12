@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/MultiThreading.iml" filepath="$PROJECT_DIR$/MultiThreading/MultiThreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/Sync/Sync.iml" filepath="$PROJECT_DIR$/MultiThreading/Sync/Sync.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" filepath="$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/singleton/singleton.iml" />
     </modules>
   </component>
 </project>
