@@ -4,7 +4,7 @@ public class DBConnPool_V0 {
     private DBConnPool_V0 instance;
 
     public DBConnPool_V0(){
-        this.instance = new DBConnPool_V0();
+        // implementation logic goes here
     }
 
     public DBConnPool_V0 getInstance(){
