@@ -3,17 +3,17 @@
 // This implementation is not thread-safe!
 
 public class DBConnPool_V2 {
-    private DBConnPool_V2 instance;
+    private static DBConnPool_V2 instance;
 
     private DBConnPool_V2(){
-        this.instance = new DBConnPool_V2();
+        // implementation logic
     }
 
     public DBConnPool_V2 getInstance(){
-        if(this.instance == null){
-            // multiple threads can enter this critical section and create that many instances of 'DBConnPool_V2'
-            this.instance = new DBConnPool_V2();
+        if(instance == null){
+            // multiple threads can enter this critical section (race condition) and create that many instances of 'DBConnPool_V2'
+            instance = new DBConnPool_V2();
         }
-        return this.instance;
+        return instance;
     }
 }
