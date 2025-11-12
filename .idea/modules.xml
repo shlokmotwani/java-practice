@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" />
     </modules>
   </component>
 </project>
