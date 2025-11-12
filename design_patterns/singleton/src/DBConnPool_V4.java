@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class DBConnPool_V4 {
-    private static DBConnPool_V4 instance;
+    private static volatile DBConnPool_V4 instance;
     private static final Lock lock = new ReentrantLock();
 
     private DBConnPool_V4(){
