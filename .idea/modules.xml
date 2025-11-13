@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" filepath="$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder/builder.iml" filepath="$PROJECT_DIR$/design_patterns/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" filepath="$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" filepath="$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/singleton/singleton.iml" />
