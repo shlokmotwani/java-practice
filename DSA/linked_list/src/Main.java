@@ -10,7 +10,9 @@ public class Main {
         list.addLast(50);
 
         list.addAtPosition(999, 4);
-
+        list.deleteFirst();
+        list.deleteAtPosition(3);
+        list.deleteLast();
         list.printList();
 
     }
