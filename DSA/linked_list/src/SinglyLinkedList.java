@@ -85,6 +85,38 @@ public class SinglyLinkedList {
 
     }
 
+    public boolean contains(int target){
+        if(this.head == null){
+            return false;
+        }
+
+        Node temp = this.head;
+        while (temp != null){
+            if(temp.data == target){
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
+
+    public int findPosition(int target){
+        if(this.head == null){
+            return -1;
+        }
+
+        Node temp = this.head;
+        int position = 0;
+        while(temp != null){
+            if(temp.data == target){
+                return position;
+            }
+            position++;
+            temp = temp.next;
+        }
+        return -1;
+    }
+
     public void printList(){
         Node temp = this.head;
         while(temp != null){

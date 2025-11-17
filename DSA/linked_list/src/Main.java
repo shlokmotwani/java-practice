@@ -9,6 +9,11 @@ public class Main {
         list.addLast(40);
         list.addLast(50);
 
+        System.out.println(list.contains(30));
+        System.out.println(list.contains(3000));
+        System.out.println(list.findPosition(40));
+        System.out.println(list.findPosition(1212));
+
         list.addAtPosition(999, 4);
         list.deleteFirst();
         list.deleteAtPosition(3);
