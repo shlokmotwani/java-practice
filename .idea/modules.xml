@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" filepath="$PROJECT_DIR$/MultiThreading/Synchronisation/Synchronisation.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/array/array.iml" filepath="$PROJECT_DIR$/DSA/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/prototype_registry/asset_management/asset_management.iml" filepath="$PROJECT_DIR$/design_patterns/prototype_registry/asset_management/asset_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/bitwise_manipulation/bitwise_manipulation.iml" filepath="$PROJECT_DIR$/DSA/bitwise_manipulation/bitwise_manipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder/builder.iml" filepath="$PROJECT_DIR$/design_patterns/builder/builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" filepath="$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" filepath="$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" />
