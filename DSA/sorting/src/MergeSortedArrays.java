@@ -1,4 +1,4 @@
-public class MergeSort {
+public class MergeSortedArrays {
     // DO NOT MODIFY THE ARGUMENTS WITH "final" PREFIX. IT IS READ ONLY
     public int[] solve(final int[] A, final int[] B) {
         int N = A.length;
