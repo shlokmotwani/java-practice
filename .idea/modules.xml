@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/linked_list/linked_list.iml" filepath="$PROJECT_DIR$/DSA/linked_list/linked_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" filepath="$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/recursion/recursion.iml" filepath="$PROJECT_DIR$/DSA/recursion/recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/singleton/singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_2/singleton_2.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_2/singleton_2.iml" />
