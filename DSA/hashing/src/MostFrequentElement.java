@@ -4,7 +4,6 @@ public class MostFrequentElement {
     public static int mostFrequent(int[] A){
         int N = A.length;
         HashMap<Integer, Integer> map = new HashMap<>();
-        int maxElement = A[0];
         int maxFrequency = 1;
 
         // initialize a frequency hashmap
@@ -13,11 +12,16 @@ public class MostFrequentElement {
                 map.put(A[i], map.get(A[i]) + 1);
                 if(map.get(A[i]) > maxFrequency){
                     maxFrequency = map.get(A[i]);
-                    maxElement = A[i];
                 }
             }
             else{
                 map.put(A[i], 1);
+            }
+        }
+        int maxElement = Integer.MIN_VALUE;
+        for(int key: map.keySet()){
+            if(map.get(key) == maxFrequency){
+                maxElement = Math.max(maxElement, key);
             }
         }
 
@@ -28,7 +32,7 @@ public class MostFrequentElement {
         int[] arr = {1, 3, 2, 1, 4, 1};
         System.out.println(mostFrequent(arr));
 
-        arr = new int[]{10, 20, 10, 20, 30, 20, 20};
+        arr = new int[]{10, 20, 10, 10, 10, 20, 30, 20, 20};
         System.out.println(mostFrequent(arr));
 
         arr = new int[]{1, 2, 2, 4, 1};
