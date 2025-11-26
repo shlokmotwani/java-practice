@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class IntersectionOfArrays {
@@ -9,21 +11,15 @@ public class IntersectionOfArrays {
             setA.add(x);
         }
 
-        HashSet<Integer> intersectionSet = new HashSet<>();
+        ArrayList<Integer> list = new ArrayList<>();
         for(int x: B){
             if(setA.contains(x)){
-                intersectionSet.add(x);
+                list.add(x);
+                setA.remove(x);
             }
         }
 
-        int[] result = new int[intersectionSet.size()];
-        int i = 0;
-        for(int x: intersectionSet){
-            result[i] = x;
-            i++;
-        }
-
-        return result;
+        return list.stream().mapToInt(i -> i).toArray();
     }
 
     public static void main(String[] args) {
