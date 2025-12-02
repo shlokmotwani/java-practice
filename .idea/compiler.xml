@@ -9,5 +9,8 @@
         <module name="searching" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="two_pointers" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
