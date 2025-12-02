@@ -1,11 +1,3 @@
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     public int val;
- *     public ListNode next;
- *     ListNode(int x) { val = x; next = null; }
- * }
- */
 public class MergeSortedList {
     public ListNode mergeTwoLists(ListNode A, ListNode B) {
         if(A == null){
