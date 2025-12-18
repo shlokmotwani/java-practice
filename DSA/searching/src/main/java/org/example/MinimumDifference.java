@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class MinimumDifference {
     public int solve(int N, int M, int[][] A) {
         int ans = Integer.MAX_VALUE;
