@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main {
+public class ConnectedComponents {
     public int[][] getComponents(int A, int[][] B) {
         int N = B.length;
         ArrayList<Integer>[] graph = new ArrayList[A+1];
