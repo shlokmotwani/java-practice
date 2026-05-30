@@ -41,9 +41,7 @@ public class PairDifferenceKWithDuplicates {
     }
     public static void main(String[] args) {
         int[] input = {1,2,2,2,2,4,5,5,6,12,12,12};
-        int[] input2 = {1,5,10};
-        int[] input3 = {2,2,2,2};
-        System.out.println(fun(input3, 0));
+        System.out.println(fun(input, 0));
     }
 }
 
