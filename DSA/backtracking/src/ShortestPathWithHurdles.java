@@ -5,7 +5,7 @@ public class ShortestPathWithHurdles {
         // sanity check
         if(B < 0 || B >= N || C < 0 || C >= M ||
                 D < 0 || D >= N || E < 0 || E >= M ||
-                maze[B][C] == 0 || maze[D][E] == 0){
+                maze[B][C] == 0 || maze[D][E] == 0 || visited[B][C] == 1){
             return;
         }
 
@@ -15,30 +15,12 @@ public class ShortestPathWithHurdles {
             return;
         }
 
-        // go up
-        if(B-1 >= 0 && visited[B-1][C] != 1){
-            visited[B-1][C] = 1;
-            path(maze, B-1, C, D, E, steps+1, ans, visited);
-            visited[B-1][C] = 0;
-        }
-        // go right
-        if(C+1 < M && visited[B][C+1] != 1){
-            visited[B][C+1] = 1;
-            path(maze, B, C+1, D, E, steps+1, ans, visited);
-            visited[B][C+1] = 0;
-        }
-        // go down
-        if(B+1 < N && visited[B+1][C] != 1){
-            visited[B+1][C] = 1;
-            path(maze, B+1, C, D, E, steps+1, ans, visited);
-            visited[B+1][C] = 0;
-        }
-        // go left
-        if(C-1 >= 0 && visited[B][C-1] != 1){
-            visited[B][C-1] = 1;
-            path(maze, B, C-1, D, E, steps+1, ans, visited);
-            visited[B][C-1] = 0;
-        }
+        visited[B][C] = 1;
+        path(maze, B-1, C, D, E, steps+1, ans, visited);    // go up
+        path(maze, B, C+1, D, E, steps+1, ans, visited);    // go right
+        path(maze, B+1, C, D, E, steps+1, ans, visited);    // go down
+        path(maze, B, C-1, D, E, steps+1, ans, visited);    // go left
+        visited[B][C] = 0;
     }
 
     public static void main(String[] args) {
