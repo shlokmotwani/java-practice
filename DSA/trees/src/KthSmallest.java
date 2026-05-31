@@ -1,14 +1,24 @@
 public class KthSmallest {
-    public static TreeNode inorder(TreeNode node, int count, int K){
-        if(node == null){
-            return null;
+    static int count = 0;
+    static TreeNode ans;
+
+    public static void inorder(TreeNode node, int K){
+        if(node == null || ans != null){
+            return;
         }
-        inorder(node.left, count, K);
+
+        inorder(node.left, K);
+
+        if(ans != null){
+            return;
+        }
+
         count++;
         if(count == K){
-            return node;
+            ans = node;
+            return;
         }
-        inorder(node.right, count, K);
-        return null;
+
+        inorder(node.right, K);
     }
 }
