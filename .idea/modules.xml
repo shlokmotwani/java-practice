@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_4/builder_4.iml" filepath="$PROJECT_DIR$/design_patterns/builder_4/builder_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/graph/graph.iml" filepath="$PROJECT_DIR$/DSA/graph/graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/greedy/greedy.iml" filepath="$PROJECT_DIR$/DSA/greedy/greedy.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/hashing/hashing.iml" filepath="$PROJECT_DIR$/DSA/hashing/hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/heap/heap.iml" filepath="$PROJECT_DIR$/DSA/heap/heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
