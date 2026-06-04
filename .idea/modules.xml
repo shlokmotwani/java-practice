@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/DSA/heap/heap.iml" filepath="$PROJECT_DIR$/DSA/heap/heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/linked_list/linked_list.iml" filepath="$PROJECT_DIR$/DSA/linked_list/linked_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/neetcode/neetcode.iml" filepath="$PROJECT_DIR$/DSA/neetcode/neetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" filepath="$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/queue/queue.iml" filepath="$PROJECT_DIR$/DSA/queue/queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/recursion/recursion.iml" filepath="$PROJECT_DIR$/DSA/recursion/recursion.iml" />
