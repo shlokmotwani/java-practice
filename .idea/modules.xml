@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA/2Darray/2Darray.iml" filepath="$PROJECT_DIR$/DSA/2Darray/2Darray.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DP-1D/DP-1D.iml" filepath="$PROJECT_DIR$/DSA/DP-1D/DP-1D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DP-2D/DP-2D.iml" filepath="$PROJECT_DIR$/DSA/DP-2D/DP-2D.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/InventoryMgmt/InventoryMgmt.iml" filepath="$PROJECT_DIR$/InventoryMgmt/InventoryMgmt.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
