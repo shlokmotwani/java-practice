@@ -12,6 +12,5 @@ public class PrintNumber implements Runnable {
     @Override
     public void run() {
         System.out.println("Running thread: " + Thread.currentThread().getName());
-        this.print();
     }
 }
