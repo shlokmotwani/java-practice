@@ -7,9 +7,6 @@ public class Main {
         ExecutorService executorService = Executors.newFixedThreadPool(10);
 
         for(int i=1; i<=100; i++){
-            if(i == 80){
-                System.out.println();
-            }
             PrintNumber pn = new PrintNumber(i);
             System.out.println("i = " + i + " ");
             executorService.execute(pn);
