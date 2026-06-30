@@ -10,8 +10,8 @@ public class Client {
         Value value = new Value();
         Lock lock = new ReentrantLock();
 
-        Adder adder = new Adder(value, lock);
-        Subtractor subtractor = new Subtractor(value, lock);
+        Adder adder = new Adder(value);
+        Subtractor subtractor = new Subtractor(value);
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         Future<Void> adderFuture = executorService.submit(adder);

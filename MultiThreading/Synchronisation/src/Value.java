@@ -8,4 +8,8 @@ public class Value {
     public void setX(long x){
         this.x = x;
     }
+
+    public synchronized void increment(long dx){
+        this.x += dx;
+    }
 }
