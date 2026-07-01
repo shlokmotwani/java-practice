@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/DSA/searching/pom.xml" />
         <option value="$PROJECT_DIR$/DSA/two_pointers/pom.xml" />
+        <option value="$PROJECT_DIR$/MultiThreading/ProducerConsumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
