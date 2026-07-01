@@ -16,10 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/DSA/backtracking/backtracking.iml" filepath="$PROJECT_DIR$/DSA/backtracking/backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/bitwise_manipulation/bitwise_manipulation.iml" filepath="$PROJECT_DIR$/DSA/bitwise_manipulation/bitwise_manipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/builder/builder.iml" filepath="$PROJECT_DIR$/design_patterns/builder/builder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" filepath="$PROJECT_DIR$/design_patterns/builder_1/builder_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" filepath="$PROJECT_DIR$/design_patterns/builder_2/builder_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_3/builder_3.iml" filepath="$PROJECT_DIR$/design_patterns/builder_3/builder_3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/builder_4/builder_4.iml" filepath="$PROJECT_DIR$/design_patterns/builder_4/builder_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_1/builder_1.iml" filepath="$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_1/builder_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_2/builder_2.iml" filepath="$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_2/builder_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_3/builder_3.iml" filepath="$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_3/builder_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_4/builder_4.iml" filepath="$PROJECT_DIR$/design_patterns/Builder_V0/src/main/java/org/example/builder_4/builder_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/design_patterns/design_patterns.iml" filepath="$PROJECT_DIR$/design_patterns/design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/graph/graph.iml" filepath="$PROJECT_DIR$/DSA/graph/graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/greedy/greedy.iml" filepath="$PROJECT_DIR$/DSA/greedy/greedy.iml" />
@@ -31,10 +31,10 @@
       <module fileurl="file://$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" filepath="$PROJECT_DIR$/design_patterns/prototype_registry/prototype_registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/queue/queue.iml" filepath="$PROJECT_DIR$/DSA/queue/queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/recursion/recursion.iml" filepath="$PROJECT_DIR$/DSA/recursion/recursion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/singleton/singleton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_1/singleton_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_2/singleton_2.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_2/singleton_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design_patterns/singleton_3/singleton_3.iml" filepath="$PROJECT_DIR$/design_patterns/singleton_3/singleton_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton/singleton.iml" filepath="$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_1/singleton_1.iml" filepath="$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_1/singleton_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_2/singleton_2.iml" filepath="$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_2/singleton_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_3/singleton_3.iml" filepath="$PROJECT_DIR$/design_patterns/Singleton_V0/src/main/java/org/example/singleton_3/singleton_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/sorting/sorting.iml" filepath="$PROJECT_DIR$/DSA/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/stack/stack.iml" filepath="$PROJECT_DIR$/DSA/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/trees/trees.iml" filepath="$PROJECT_DIR$/DSA/trees/trees.iml" />

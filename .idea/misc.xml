@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/DSA/searching/pom.xml" />
         <option value="$PROJECT_DIR$/DSA/two_pointers/pom.xml" />
         <option value="$PROJECT_DIR$/MultiThreading/ProducerConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/design_patterns/Builder_V0/pom.xml" />
+        <option value="$PROJECT_DIR$/design_patterns/Singleton_V0/pom.xml" />
+        <option value="$PROJECT_DIR$/design_patterns/Builder_V1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

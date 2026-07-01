@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="searching" />
         <module name="ProducerConsumer" />
+        <module name="Builder_V1" />
+        <module name="Builder_V0" />
+        <module name="Singleton_V0" />
+        <module name="searching" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
