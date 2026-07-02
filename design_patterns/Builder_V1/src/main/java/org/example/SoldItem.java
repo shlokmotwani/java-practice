@@ -1,12 +1,12 @@
 package org.example;
 
 public class SoldItem {
-    private String name;
-    private int price;
-    private int quantity;
-    private int discount;
-    private int deliveryCharge;
-    private String notes;
+    private final String name;
+    private final  int price;
+    private final int quantity;
+    private int discount = 0; //optional
+    private int deliveryCharge = 0; //optional
+    private String notes = ""; //optional
 
     private SoldItem(SoldItemBuilder builder){
         this.name = builder.name;
