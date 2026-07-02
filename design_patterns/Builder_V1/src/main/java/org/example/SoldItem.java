@@ -66,6 +66,13 @@ public class SoldItem {
         }
 
         public SoldItem build(){
+            if(name == null){
+                throw new IllegalStateException("Name is required");
+            }
+            if(price <= 0){
+                throw new IllegalStateException("Price must be positive");
+            }
+
             return new SoldItem(this);
         }
     }
