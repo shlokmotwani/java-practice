@@ -9,12 +9,12 @@ public class SoldItem {
     private String notes;
 
     private SoldItem(SoldItemBuilder builder){
-        this.name = builder.getName();
-        this.price = builder.getPrice();
-        this.quantity = builder.getQuantity();
-        this.discount = builder.getDiscount();
-        this.deliveryCharge = builder.getDeliveryCharge();
-        this.notes = builder.getNotes();
+        this.name = builder.name;
+        this.price = builder.price;
+        this.quantity = builder.quantity;
+        this.discount = builder.discount;
+        this.deliveryCharge = builder.deliveryCharge;
+        this.notes = builder.notes;
     }
 
     public static SoldItemBuilder getBuilder(){
@@ -34,30 +34,6 @@ public class SoldItem {
         private int discount;
         private int deliveryCharge;
         private String notes;
-
-        public String getName() {
-            return name;
-        }
-
-        public int getPrice() {
-            return price;
-        }
-
-        public int getQuantity() {
-            return quantity;
-        }
-
-        public int getDiscount() {
-            return discount;
-        }
-
-        public int getDeliveryCharge() {
-            return deliveryCharge;
-        }
-
-        public String getNotes() {
-            return notes;
-        }
 
         public SoldItemBuilder setName(String name) {
             this.name = name;
